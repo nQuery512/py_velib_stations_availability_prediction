@@ -1,0 +1,14 @@
+.searchButton {
+	background-color: #4CAF50;
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}

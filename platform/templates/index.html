@@ -3,23 +3,26 @@
 <html lang="en">
 <head>
 
-  <meta charset="utf-8">
+	<meta charset="utf-8">
 
-  <title>Analyse de relevé de stations velib</title>
-  <meta name="description" content="The HTML5 Herald">
-  <meta name="author" content="ok">
+	<title>Analyse de relevé de stations velib</title>
+	<meta name="description" content="The HTML5 Herald">
+	<meta name="author" content="ok">
 
-   <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/index.css')}}">
-  <script type="text/javascript" src="{{ url_for('static', filename='jquery-3.3.1.min.js')}}"></script>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/index.css')}}">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/dot.css')}}">
+	<script type="text/javascript" src="{{ url_for('static', filename='jquery-3.3.1.min.js')}}"></script>
+	<script type="text/javascript" src="{{ url_for('static', filename='chart.js')}}"></script>
 	<script type="text/javascript" src="{{ url_for('static', filename='scripts.js')}}"></script>
 	
 </head>
 
 <body>
-  <select id="station-dropdown" name="stations" onChange="getSelectedValue();"></select>
+  <select id="station-dropdown" name="stations" ></select>
   <a href="#" class="searchButton" onClick="getSelectedValue();">Recherchez</a>
+  <span class="dot" id="station-activity"></span>
+  <canvas id="dispo-graph" width="100" height="100"></canvas>
   <script type="text/javascript">
-  		
 
   		let dropdown = $('#station-dropdown');
 		dropdown.empty();
@@ -28,6 +31,7 @@
 		dropdown.prop('selectedIndex', 0);
 		json_data = "{{ json_data }}"
 		
+				//json_data = JSON.parse(json_data)
 		var parser = new DOMParser;
 		var dom = parser.parseFromString('<!doctype html><body>' + json_data,'text/html');
 		var decodedString = dom.body.textContent;
@@ -46,7 +50,7 @@
 			var option = document.createElement("option");
 			option.text = decodedString[indice];
 			x.add(option, x[indice]);
-		}
+		}	
 
 	</script>
 </body>

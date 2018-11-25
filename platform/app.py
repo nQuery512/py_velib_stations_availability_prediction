@@ -35,19 +35,20 @@ def home():
 	
 	return render_template("index.html", json_data=json.dumps(json_data, ensure_ascii=False).encode('utf-8'))
 
-# http://localhost:5000/stations?station_id=16104
+# Real-time API requesting for not-prediction data
 @app.route('/stations', methods=['GET', 'POST'])
 def get_one():
-	# Retourne le code de la station passé dans la requête
+	'''# Retourne le code de la station passé dans la requête
 	res = client.db.stations_records.find_one(
 		{"station.name": request.args.get('name')},
 		{"station.code": 1}
 	)
+
 	station_records = client.db.station_records.find(
 		{"station.name": request.args.get('name')},
 	)
 	print("\n\n\n", dumps(station_records))
-
+'''
 	StartPoint = ["49","2.85"]
 	EndPoint = ["48.7","2"]
 	URL = "https://www.velib-metropole.fr/webapi/map/details?gpsTopLatitude="+StartPoint[0]+"&gpsTopLongitude="+StartPoint[1]+"&gpsBotLatitude="+EndPoint[0]+"&gpsBotLongitude="+EndPoint[1]+"&zoomLevel=19"

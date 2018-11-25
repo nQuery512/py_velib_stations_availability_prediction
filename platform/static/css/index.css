@@ -1,3 +1,8 @@
+body
+{
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
 .searchButton {
 	background-color: #4CAF50;
     border: none;
@@ -10,5 +15,20 @@
     font-size: 22px;
     margin: 4px 2px;
     cursor: pointer;
-    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+#station-state
+{
+    font-size: 2.5vh;
+    display: none;
+}
+
+#station-dropdown
+{
+    font-size: 3vh;
+}
+
+#station-overflow
+{
+    display: none;
 }

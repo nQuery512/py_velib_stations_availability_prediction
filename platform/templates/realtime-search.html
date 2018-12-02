@@ -1,0 +1,71 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Analyse de relevé de stations velib</title>
+	<meta name="description" content="The HTML5 Herald">
+	<meta name="author" content="ok">
+
+	<link rel="icon" type="image/png" href= "{{ url_for('static', filename='images/icon.png')}}">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/index.css')}}">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/dot.css')}}">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/button.css')}}">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/spinner.css')}}">
+
+	<script type="text/javascript" src="{{ url_for('static', filename='jquery-3.3.1.min.js')}}"></script>
+	<script type="text/javascript" src="{{ url_for('static', filename='chart.js')}}"></script>
+	<script type="text/javascript" src="{{ url_for('static', filename='scripts.js')}}"></script>
+	
+</head>
+
+<body>
+	<h1 align="center" id="page-title">Recherche par station - Temps réel</h1>
+	<select id="station-dropdown" name="stations" ></select>
+	<button class="button" onClick="getSelectedValue();"><span>Recherche</span></button>
+	<div id="spinner" class="lds-ellipsis"><div></div><div></div><div></div><div></div></div>
+	<div id="station-state">
+		<h3>Informations complémentaires:</h3><br>
+		<b>Etat de la station:</b> 
+		<span class="dot" id="station-activity"></span><br>
+		<span id="station-overflow"></span>
+	</div>
+	<div id="graph-div" style="margin: 0 auto;">
+		<canvas id="dispo-graph" ></canvas>
+		<canvas id="retour-graph"></canvas>
+	</div>
+	<script type="text/javascript">
+
+  		let dropdown = $('#station-dropdown');
+		dropdown.empty();
+
+		dropdown.append('<option selected="true" disabled>Choisissez votre station</option>');
+		dropdown.prop('selectedIndex', 0);
+		json_data = "{{ json_data }}"
+		
+				//json_data = JSON.parse(json_data)
+		var parser = new DOMParser;
+		var dom = parser.parseFromString('<!doctype html><body>' + json_data,'text/html');
+		var decodedString = dom.body.textContent;
+		decodedString = decodeURIComponent(escape(decodedString));
+		//console.log(decodedString);
+		decodedString = decodedString.substring(2);
+		decodedString = decodedString.slice(0, -1);
+		decodedString = JSON.parse(decodedString);
+		decodedString = decodedString.sort();
+		//console.log(decodedString);
+
+		var x = document.getElementById("station-dropdown");
+		// Ajout de cases pour la liste déroulantes
+		for (var indice in decodedString)
+		{
+			var option = document.createElement("option");
+			option.text = decodedString[indice];
+			x.add(option, x[indice]);
+		}	
+
+	</script>
+</body>
+</html>

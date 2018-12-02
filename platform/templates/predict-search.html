@@ -1,0 +1,110 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Analyse de relevé de stations velib</title>
+	<meta name="description" content="The HTML5 Herald">
+	<meta name="author" content="ok">
+
+	<link rel="icon" type="image/png" href= "{{ url_for('static', filename='images/icon.png')}}">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/index.css')}}">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/dot.css')}}">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/button.css')}}">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/spinner.css')}}">
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css" integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
+    	crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.3.1/dist/leaflet.js" integrity="sha512-/Nsx9X4HebavoBvEBuyp3I7od5tA0UzAxs+j83KgC8PU0kgB4XiK4Lfe4y4cgBtaRJQEIFCW+oC506aPT2L1zw=="
+        crossorigin=""></script>
+
+	<script type="text/javascript" src="{{ url_for('static', filename='jquery-3.3.1.min.js')}}"></script>
+	<script type="text/javascript" src="{{ url_for('static', filename='chart.js')}}"></script>
+	<script type="text/javascript" src="{{ url_for('static', filename='scripts.js')}}"></script>
+	<script src="https://unpkg.com/leaflet@1.3.1/dist/leaflet.js" integrity="sha512-/Nsx9X4HebavoBvEBuyp3I7od5tA0UzAxs+j83KgC8PU0kgB4XiK4Lfe4y4cgBtaRJQEIFCW+oC506aPT2L1zw=="
+        crossorigin=""></script>
+
+</head>
+
+<body>
+	<h2 align="center" id="page-title">Recherche par location - Prediction<br>Algorithme : RandomForest</h2>
+	<select id="hour-dropdown" style="font-size:3vh" name="Heure" ></select>
+	<select id="minut-dropdown" style="font-size:3vh" name="Minute" ></select>
+
+	<script type="text/javascript">
+
+		var lat = 48.862969;
+			var lon = 2.349903;
+			var macarte = null;
+			// Fonction d'initialisation de la carte
+			function initMap() {
+                macarte = L.map('map').setView([lat, lon], 12);
+                L.tileLayer('https://{s}.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png', {
+                    attribution: 'données © <a href="//osm.org/copyright">OpenStreetMap</a>/ODbL - rendu <a href="//openstreetmap.fr">OSM France</a>',
+                    minZoom: 1,
+                    maxZoom: 20
+                }).addTo(macarte);
+                var popup = L.popup();
+                function onMapClick(e) {
+                	alert("Coordonnées : " + e.latlng.toString())
+		        	L.marker(e.latlng).addTo(macarte);
+				}
+				macarte.on('click', onMapClick); 
+            }
+			window.onload = function(){
+				// Fonction d'initialisation qui s'exécute lorsque le DOM est chargé
+				initMap(); 
+			};
+
+  		let hour_dropdown = $('#hour-dropdown');
+		hour_dropdown.empty();
+		hour_dropdown.append('<option selected="true" disabled>Heure</option>');
+		hour_dropdown.prop('selectedIndex', 0);
+
+		let minute_dropdown = $('#minut-dropdown');
+		minute_dropdown.empty();
+		minute_dropdown.append('<option selected="true" disabled>Minute</option>');
+		minute_dropdown.prop('selectedIndex', 0);
+
+		hour_list = []
+		for(var count=0; count<24; count++)
+			hour_list.push(count);
+	
+		minute_list = [];
+		for(var count=0; count<60; count++)
+			minute_list.push(count);
+
+		var minute_ref = document.getElementById("minut-dropdown");
+		// Ajout de cases pour la liste déroulantes
+		for (var minute in minute_list)
+		{
+			var option = document.createElement("option");
+			option.text = minute;
+			minute_ref.add(option, minute);
+		}	
+
+		var hour_ref = document.getElementById("hour-dropdown");
+		// Ajout de cases pour la liste déroulantes
+		for (var hour in hour_list)
+		{
+			var option = document.createElement("option");
+			option.text = hour;
+			hour_ref.add(option, hour);
+		}
+
+
+	</script>
+	<button class="button" onClick="getNearestStation();"><span>Recherche</span></button>
+	<div id="map">
+			<!-- Ici s'affichera la carte -->
+	</div>
+	<style type="text/css">
+		#map
+		{ 
+			width:50vw;
+			height:60vh;
+		}
+	</style>
+</body>
+</html>

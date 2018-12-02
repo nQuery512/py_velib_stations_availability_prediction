@@ -1,6 +1,15 @@
-body
+html, body
 {
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    height: 100vh;
+    width: 100vw;
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+#wrapper {
+    margin-top: 10vh;
+    text-align: center;
 }
 
 .searchButton {
@@ -31,4 +40,18 @@ body
 #station-overflow
 {
     display: none;
+}
+
+#graph-div
+{
+   position: relative;
+   height:100vh; 
+   width:50vw;
+   left:0;
+}
+
+#dispo-graph
+{
+    left:0;
+    height: 10vh;
 }

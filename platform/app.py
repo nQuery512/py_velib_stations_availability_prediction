@@ -6,6 +6,7 @@ from flask import render_template
 import os, json
 from bson.json_util import dumps
 import requests
+import classifier
 
 app = Flask(__name__)
 app.config["MONGO_URI"] = "mongodb://localhost:27017/projet_velib"
@@ -29,26 +30,25 @@ for station in ref:
 
 @app.route('/', methods=['GET', 'POST'])
 def home():
+	return render_template("index.html")
+
+@app.route('/rt-search', methods=['GET', 'POST'])
+def real_time_search():
 	SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
 	json_url = os.path.join(SITE_ROOT, "static\\data", "nom_stations.json")
 	json_data = json.load(open(json_url, encoding='utf-8'))
-	
-	return render_template("index.html", json_data=json.dumps(json_data, ensure_ascii=False).encode('utf-8'))
+	return render_template('realtime-search.html', json_data=json.dumps(json_data, ensure_ascii=False).encode('utf-8'))
+
+@app.route('/predict-search', methods=['GET', 'POST'])
+def geographic_prediction_search():
+	SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
+	json_url = os.path.join(SITE_ROOT, "static\\data", "nom_stations.json")
+	json_data = json.load(open(json_url, encoding='utf-8'))
+	return render_template('predict-search.html', json_data=json.dumps(json_data, ensure_ascii=False).encode('utf-8'))
 
 # Real-time API requesting for not-prediction data
 @app.route('/stations', methods=['GET', 'POST'])
 def get_one():
-	'''# Retourne le code de la station passé dans la requête
-	res = client.db.stations_records.find_one(
-		{"station.name": request.args.get('name')},
-		{"station.code": 1}
-	)
-
-	station_records = client.db.station_records.find(
-		{"station.name": request.args.get('name')},
-	)
-	print("\n\n\n", dumps(station_records))
-'''
 	StartPoint = ["49","2.85"]
 	EndPoint = ["48.7","2"]
 	URL = "https://www.velib-metropole.fr/webapi/map/details?gpsTopLatitude="+StartPoint[0]+"&gpsTopLongitude="+StartPoint[1]+"&gpsBotLatitude="+EndPoint[0]+"&gpsBotLongitude="+EndPoint[1]+"&zoomLevel=19"
@@ -58,6 +58,14 @@ def get_one():
 	print(type(formatted_resp))
 
 	return formatted_resp
+
+@app.route('/predict_stations', methods=['GET', 'POST'])
+def get_nearest_station():
+	hour = request.args.get('hour')
+	result = classifier.classify(hour)
+	print(result)
+	# Utilisation de requête geospatial + utilisation $geoNear geospatial request operator
+	return str(result)
 
 if __name__ == '__main__':
 	app.run(debug=True,host='0.0.0.0')

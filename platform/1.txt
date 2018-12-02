@@ -1,0 +1,1081 @@
+28 , 01 , Charenton - Place du Col Bourgoin
+6 , 01 , Phalsbourg-Villiers
+10 , 01 , Claude Decaen - Cannebière
+3 , 01 , Château - République
+4 , 01 , Paradis - Hauteville
+16 , 01 , Legendre - Nollet
+3 , 01 , Flandre - Alphonse Karr
+0 , 01 , Georges V - François 1er
+10 , 01 , Charles de Gaulle - Beauté 
+26 , 01 , Traversière - Ledru-Rollin
+18 , 01 , Charonne - Avron
+10 , 01 , Ménilmontant - Père Lachaise
+5 , 01 , Sablons - Georges Mandel
+8 , 01 , Francoeur - Caulaincourt 
+26 , 01 , Saint-Mandé - Docteur Arnold Netter
+15 , 01 , Vignerons - Minimes
+2 , 01 , Louis Lumière 
+8 , 01 , Davout - Volga
+22 , 01 , Château de Vincennes
+20 , 01 , Porte de Charenton
+6 , 01 , Vaugirard - Pasteur
+10 , 01 , Tardieu - Chappe
+3 , 01 , Marché Saint-Quentin
+16 , 01 , Javel - André Citroen
+2 , 01 , Boudreau - Auber
+8 , 01 , Jean Jaurès - Jean Baptiste clément 
+12 , 01 , Sibelle - Alésia
+4 , 01 , Nationale - Marcel Duchamp
+6 , 01 , Sadi Carnot - François Mitterrand 
+3 , 01 , Flandrin - Longchamp
+2 , 01 , Edgar Quinet - Gaité
+21 , 01 , Place de l'Insurrection d'Août 1944 
+6 , 01 , François Truffaut - Saint Emilion
+8 , 01 , Gay Lussac - Saint-Jacques
+23 , 01 , Madeleine Michelis - Roule
+8 , 01 , Mairie du 17ème
+1 , 01 , Henry Farman
+1 , 01 , Ceinture du Lac Inferieure - Saint-Cloud
+23 , 01 , Place Lafayette
+13 , 01 , Paul Vaillant-Couturier - Victor Hugo
+1 , 01 , Chateaubriand - Friedland
+11 , 01 , Departement - Pajol
+2 , 01 , Malakoff  place de la porte maillot 
+18 , 01 , Maisons-Alfort - Stade Auguste Delaune
+14 , 01 , Dom-Pérignon - Gravelle
+2 , 01 , Victoire - Laffite
+2 , 01 , Bercy
+9 , 01 , Jean Jaurès - Salvador Allende
+14 , 01 , Pierre Joseph Desault
+4 , 01 , Mairie  
+10 , 01 , Marcadet - Ramey
+13 , 01 , Saint-Mande - Picpus
+5 , 01 , Poissy - Saint-Germain
+6 , 01 , Gare de Bercy
+5 , 01 , Assas - Rennes
+7 , 01 , Naples - Rome
+12 , 01 , Mairie
+7 , 01 , Saint-Honoré - 29 juillet
+3 , 01 , Marché aux fleurs
+2 , 01 , Enghien - Faubourg Poissonnière
+21 , 01 , Argenson - Château
+10 , 01 , Cité Vaneau
+4 , 01 , Place Tristan Bernard 
+7 , 01 , Square Louis XVI
+12 , 01 , Claude Vellefaux - Hôpital Saint-Louis
+4 , 01 , Nationale - Vincent Auriol
+10 , 01 , Reuilly -Daumesnil 
+7 , 01 , Louis Blanc - La Chapelle
+3 , 01 , Cité des Sciences et de l'Industrie
+20 , 01 , Place Monge
+3 , 01 , Commandant Rivière
+2 , 01 , Bruant - Vincent Auriol
+4 , 01 , Square des Saint-Simoniens
+4 , 01 , Manin - Simon Bolivar
+7 , 01 , Pajol - Riquet 
+2 , 01 , Cloître Saint-Merri - Renard
+19 , 01 , Porte d'Aubervilliers
+15 , 01 , Gergovie - Alésia
+5 , 01 , Claude Debussy - Marc Bloch
+2 , 01 , Longchamp - Place d'Iéna
+28 , 01 , Mairie du 12ème
+6 , 01 , Pernety - Raymond Losserand
+13 , 01 , Boyer-Barret - Raymond Losserand
+11 , 01 , Fragonard - Porte de Clichy
+7 , 01 , Ségur - d'Estrées
+8 , 01 , Lavoisier - Missak Manouchian
+3 , 01 , Rougemont - Poissonnière
+20 , 01 , Dominique Pado - Croix Nivert
+9 , 01 , Parc Georges Brassens - Brancion
+15 , 01 , Gambetta - Saint Fargeau
+6 , 01 , Sorbonne - Ecoles
+2 , 01 , Porte de Pantin - Petits Ponts
+6 , 01 , Temple - Haudriettes
+2 , 01 , Saint-Denis - Réaumur
+4 , 01 , Cujas Saint-Michel
+31 , 01 , Bréguet - Sabin
+4 , 01 , Square Claude Bernard
+10 , 01 , Lecourbe - Jean Maridor
+7 , 01 , Port Royal - Hôpital Cochin
+0 , 01 , Laffitte - Italiens
+7 , 01 , Vivaldi - Antoine-Julien Hénard
+1 , 01 , Porte de la Chapelle
+0 , 01 , Charentonneau - Maisons Alfort
+16 , 01 , Grenelle - Violet
+7 , 01 , Petites Ecuries - Faubourg Saint-Denis
+14 , 01 , Pierre Brossolette  Adolphe Pinard
+0 , 01 , Bienfaisance - Place de Narvik
+11 , 01 , Kléber - Gouverneur Général Eboué
+9 , 01 , Boulets - Faubourg Saint-Antoine
+7 , 01 , Belliard - Damrémont
+9 , 01 , Lagny - Auguste Blanqui 
+1 , 01 , Ecoles - Carmes
+7 , 01 , Lallier - Trudaine 
+3 , 01 , Santé - Arago
+8 , 01 , Buisson Saint-Louis - Saint-Maur
+4 , 01 , Ménilmontant - Pelleport
+3 , 01 , Rome - Provence
+2 , 01 , Jean Bologne - Passy
+30 , 01 , Duméril - Jeanne d'Arc
+0 , 01 , Place de l'Édit de Nantes
+11 , 01 , Mairie
+6 , 01 , Porte de Bagnolet
+17 , 01 , Place Falguière
+10 , 01 , Etienne Marcel - Montorgueil
+0 , 01 , Square Raymond Souplex
+13 , 01 , François 1er - Montaigne
+17 , 01 , Laumière - Petit
+8 , 01 , Mairie du 18ème
+11 , 01 , Square-Montholon
+12 , 01 , Dantzig - Lefebvre 
+5 , 01 , Pierre Brossolette - 12 Février 1934
+3 , 01 , Parc Monceau
+2 , 01 , Mairie
+30 , 01 , Sahel - Général Michel Bizot
+7 , 01 , Porte de la Villette
+2 , 01 , Gouthière - Poterne des Peupliers
+27 , 01 , Exelmans - Versailles
+2 , 01 , Place de la Nation - Taillebourg
+0 , 01 , Porte de la Plaine
+12 , 01 , Berges de Seine - Concorde
+3 , 01 , Montparnasse -  Square Ozanam
+2 , 01 , Mairie du 16ème
+1 , 01 , Paul-Valery - Victor-Hugo
+0 , 01 , Jourdan - Stade Charléty
+15 , 01 , Victor Massé - Jean-Baptiste Pigalle
+9 , 01 , Lobau - Hôtel de Ville
+3 , 01 , Ménilmontant - Oberkampf
+0 , 01 , Sabot - Rennes
+6 , 01 , Jardin Marguerite Long
+1 , 01 , Danielle Casanova - Place Vendôme
+24 , 01 , Jean de la Fontaine - Boulainvilliers
+6 , 01 , Parc de Choisy
+11 , 01 , Gare de Lyon - Van Gogh
+20 , 01 , Jemmapes - Grange aux Belles
+12 , 01 , Lerrede - Tolbiac
+7 , 01 , Maine - Antoine Bourdelle
+4 , 01 , Gare de Clichy-Levallois 
+25 , 01 , Ledru-Rollin - Place du Père Chaillet
+8 , 01 , Pontoise - La Tournelle
+1 , 01 , Harpe - Saint-Germain 
+9 , 01 , Duroc - Place de Breteuil
+8 , 01 , Charles Tillon - Cimetière Communal
+18 , 01 , Saint-François-Xavier
+5 , 01 , Tiron-Rivoli 
+2 , 01 , Boulangers - Cardinal Lemoine
+8 , 01 , Navier - Epinettes
+4 , 01 , Colisée Champs-Elysées 
+0 , 01 , Le Corbusier - Jean Jaurès
+27 , 01 , Gabriel Lamé
+8 , 01 , Gare de l'Est - Chateau Landon
+4 , 01 , Raymond Poincaré - Place Victor Hugo
+21 , 01 , Boussingault - Tolbiac
+8 , 01 , Voltaire - Anatole France
+4 , 01 , Square d'Anvers
+19 , 01 , Charonne - Philippe-Auguste
+6 , 01 , Saint-Bon - Rivoli
+9 , 01 , Molitor - Michel-Ange
+22 , 01 , Saint-Amand - Labrouste
+2 , 01 , Saint-Germain - Ciseaux
+1 , 01 , Docteurs Déjérine - Pte de Montreuil
+0 , 01 , Batignolles - Beudant
+10 , 01 , Stalingrad - Désiré Chevalier
+3 , 01 , Quai aux Fleurs - Pont Saint-Louis
+16 , 01 , Aristide Briand - Place de la Résistance
+13 , 01 , Crimée - Ourcq
+1 , 01 , Haxo - Surmelin
+26 , 01 , Molitor - Chardon-Lagache
+33 , 01 , Croix Nivert - Square Saint-Lambert
+8 , 01 , Place de la Fraternité
+18 , 01 , Melun - Jean Jaures
+9 , 01 , Gare Montparnasse - Vaugirard
+5 , 01 , Louis Ganne - Davout
+21 , 01 , Reuilly - Place Felix Eboue
+2 , 01 , Rochechouart - Martyrs
+5 , 01 , Place de Finlande
+9 , 01 , Petit Palais
+6 , 01 , Square du Carrefour de l'Insurrection
+18 , 01 , Square Desnouettes
+15 , 01 , Rampal - Belleville 
+6 , 01 , Bobillot - Moulin des Prés
+15 , 01 , Grenelle - Dr Finlay
+2 , 01 , Faustin Hélie - Desbordes-Valmore
+8 , 01 , Liard - Amiral Mouchez
+3 , 01 , Filles Saint-Thomas - Place de la Bourse
+10 , 01 , Saint-Ambroise - Parmentier
+0 , 01 , Auguste Blanqui Corvisart
+6 , 01 , Damrémont - Ordener
+12 , 01 , Cimetière de Montmartre
+8 , 01 , Bir Hakeim
+3 , 01 , Geoffroy-Saint-Hilaire - Saint-Marcel
+26 , 01 , Place Aristide Briand
+11 , 01 , Pereire - Place de Wagram
+2 , 01 , Place Saint-André des Arts
+7 , 01 , Edouard Pailleron Simon Bolivar 
+23 , 01 , St-Ouen - Lamarck
+23 , 01 , Parmentier - République 
+10 , 01 , Gabrielle Josserand - Edouard Vaillant 
+3 , 01 , Charles de Gaulle-Louis-Philippe
+7 , 01 , Général De Gaulle - Vivien
+15 , 01 , Square Edmond Pépin
+21 , 01 , Général Leclerc - Bièvre
+4 , 01 , Michel-Ange - Parent de Rosan
+39 , 01 , Daumesnil - Hébrard
+4 , 01 , Sommerard - Saint-Jacques
+33 , 01 , Madagascar - Meuniers
+20 , 01 , Guillaume Bertrand - République
+10 , 01 , Caire - Dussoubs
+2 , 01 , Monceau - Malesherbes 
+23 , 01 , Joseph Liouville - Croix Nivert
+8 , 01 , Saint-Jacques - Soufflot
+24 , 01 , Vistule - Choisy
+1 , 01 , Place de Barcelone - Mirabeau
+15 , 01 , Verdun - Place Henri IV
+27 , 01 , Alexandre Dumas - Voltaire
+11 , 01 , Legendre - Clichy
+18 , 01 , M A Lagroua Weill-Hallé -  F Dolto
+46 , 01 , Félix Faure - Lourmel 
+3 , 01 , Belleville -  Pré Saint-Gervais
+2 , 01 , Panthéon - Valette
+2 , 01 , Assas - Luxembourg
+11 , 01 , Ernest Renan - Parc des Expositions
+9 , 01 , Gare Rer
+3 , 01 , Saint-Marc - Feydeau
+21 , 01 , Pascal - Claude Bernard
+31 , 01 , Guy Môquet - Compoint
+2 , 01 , Turbigo - Française
+1 , 01 , Danielle Casanova - Opéra
+4 , 01 , Jean Moulin - Place Victor et Hélène Basch
+10 , 01 , Convention - Vaugirard
+5 , 01 , Porte d'Ivry
+9 , 01 , Transvaal - Charles de Gaulle 
+26 , 01 , Commandant Charcot - Bretteville
+14 , 01 , Versailles - Claude Terrasse
+36 , 01 , Square Cambronne
+3 , 01 , Mairie du 19ème
+1 , 01 , Matignon - Faubourg Saint-Honoré
+8 , 01 , Jussieu - Fossés Saint-Bernard
+8 , 01 , Marc Sangnier - Porte de Vanves
+8 , 01 , Mairie du 10ème
+28 , 01 , Alibert - Jemmapes
+1 , 01 , Gare RER
+16 , 01 , Emile Reynaud - Porte de la Villette 
+6 , 01 , Choisy - Malmaisons
+22 , 01 , Les Halles Saint-Eustache
+1 , 01 , Edgar Quinet - Raspail 
+0 , 01 , Rond-Point Rhin et Danube
+3 , 01 , Belidor - Gouvion-Saint-Cyr
+13 , 01 , Bineau - Louise Michel
+19 , 01 , Place des Droits de l'Enfant
+15 , 01 , Place Jacques Madaule
+7 , 01 , Las Cases - Bourgogne
+5 , 01 , Tanger - Place du Maroc
+3 , 01 , Mairie du 20ème
+21 , 01 , Keller - La Roquette
+11 , 01 , Courcelles - Pierre Demours
+12 , 01 , Gare de Lyon - Place Louis Armand
+5 , 01 , Square Boucicaut
+31 , 01 , Champ de Mars - Cler
+13 , 01 , Bercy - Traversiére
+14 , 01 , Place Edmond Michelet
+3 , 01 , Benjamin Godard - Victor Hugo
+7 , 01 , Cléry - Montmartre
+1 , 01 , Louis Lumière - Porte de Bagnolet
+29 , 01 , Censier - Jardin des Plantes
+9 , 01 , Le Brix et Mesmin - Jourdan
+7 , 01 , Gare Saint-Lazare - Stockholm
+4 , 01 , Volontaires - Vaugirard
+19 , 01 , Suffren - Pérignon
+2 , 01 , Saint-Benoît - Jacob
+8 , 01 , Place Du Général De Gaulle
+14 , 01 , Rapp - Place du Général Gouraud
+27 , 01 , Convention - Lourmel
+6 , 01 , Place Alphonse Deville
+4 , 01 , Custine - Ramey
+2 , 01 , Cassini-Denfert-Rechereau 
+6 , 01 , Didot - Place de Moro-Giafferi
+0 , 01 , Dugommier
+2 , 01 , Michelet - Assas
+23 , 01 , Musée d'Orsay
+9 , 01 , Choron - Martyrs
+3 , 01 , Beaujon - Wagram
+11 , 01 , Verdun - Adrien Damalix
+23 , 01 , Parc Roger Salengro
+5 , 01 , Philippe-Auguste
+18 , 01 , Place de la Montagne du Goulet
+6 , 01 , Marcadet - Barbès
+2 , 01 , Belles Feuilles - Place de Mexco
+9 , 01 , Place de la vache noire
+3 , 01 , Cotentin - Pasteur
+13 , 01 , Buzenval - Vignoles
+3 , 01 , Belleville - Porte des Lilas
+2 , 01 , Repos - Cimetière du Père Lachaise
+1 , 01 , Porte de Ménilmontant
+11 , 01 , Jean Lolive - Parc Stalingrad
+8 , 01 , Exelmans - Michel-Ange
+7 , 01 , Grande Armée - Brunel
+2 , 01 , D'artois Berry
+4 , 01 , Place des Victoires
+31 , 01 , Lecourbe - Convention
+12 , 01 , Flandre - Riquet
+13 , 01 , Epée de Bois - Mouffetard
+2 , 01 , Flandrin - Henri Martin
+5 , 01 , Jean-Calvin - Tournefort
+5 , 01 , Manin - Secrétan
+18 , 01 , Ivry - Baudricourt
+1 , 01 , Place de l'Eglise
+13 , 01 , Guersant - Gouvion-Saint-Cyr
+12 , 01 , Fontenay - Libération
+10 , 01 , Cardinal Lavigerie
+10 , 01 , Jardin Alexandra David Neel
+20 , 01 , Lamartine - Faubourg Montmartre
+16 , 01 , Arago - Glacière 
+3 , 01 , Gare du Nord - Dunkerque 
+23 , 01 , Point du Jour - Jean Jaurès
+1 , 01 , Place Pigalle
+8 , 01 , Abbé Carton - Plantes
+3 , 01 , Place de Passy
+16 , 01 , Mairie du 4ème
+19 , 01 , Château - Bineau
+1 , 01 , Raspail - Bac
+29 , 01 , Cevennes-Bergers
+7 , 01 , Vivienne - Montmartre
+36 , 01 , Jacquard - Ternaux 
+15 , 01 , Pyrénées - Charles Renouvier
+8 , 01 , Réunion - Avron
+17 , 01 , Marseille - Beaurepaire
+15 , 01 , Saint-Marcel - Hôpital
+2 , 01 , Guillaume Tell - Parc Henri Barbusse
+10 , 01 , Arthur Auger - Jean Jaurès
+2 , 01 , Paul Klee Place - Augusta holmes
+15 , 01 , Raspail - Albert Schweitzer
+17 , 01 , Thionville - Ourcq
+7 , 01 , Parc de Belleville - Julien Lacroix
+8 , 01 , Gambetta - Michelet
+6 , 01 , Buzenval - Avron
+5 , 01 , Pelleport - Belgrand
+13 , 01 , Diderot - Pierre Bourdan
+15 , 01 , Place Madeleine Daniélou
+5 , 01 , Aqueduc - Villette
+2 , 01 , Arsène Houssaye - Champs-Elysées
+19 , 01 , Bois de Vincennes - Gare
+16 , 01 , Le Brun - Gobelins
+9 , 01 , Square Denise Buisson
+18 , 01 , Place Albert Kahn
+8 , 01 , Jean-Baptiste Pigalle - La Bruyere
+3 , 01 , Butte aux Cailles - Esperance
+25 , 01 , Mairie d'Issy
+0 , 01 , Passy - Place du Costa Rica
+5 , 01 , Champeaux - Gallieni
+12 , 01 , Paul Doumer - La Tour
+7 , 01 , Bayen - Pereire
+5 , 01 , Pierre Ginier - Clichy
+12 , 01 , Quai Voltaire
+11 , 01 , Victor Hugo - Jeanne Jugan
+3 , 01 , Siam - La Pompe
+8 , 01 , Vaneau - Sevres
+12 , 01 , Aboukir - Alexandrie
+17 , 01 , Jean-Pierre Timbaud - Vaucouleurs
+4 , 01 , Clapeyron - Moscou
+0 , 01 , Victor Hugo - La Pompe
+18 , 01 , Maison de Radio - France
+4 , 01 , Pereire - Rennequin
+3 , 01 , Gérando - Rochechouart 
+15 , 01 , Orteaux - Mouraud
+6 , 01 , Pyrénées - Emmery
+8 , 01 , Bellefond-Poissonnière
+4 , 01 , Saint-Jacques Val de Grâce
+17 , 01 , Place des Marseillais
+6 , 01 , Sarrette - Général Leclerc
+16 , 01 , Dunois- Clisson
+19 , 01 , Alexandre Dumas - Place de la Réunion
+4 , 01 , Ouest - Château 
+7 , 01 , Gare d'Austerlitz - Quai Saint-Bernard
+11 , 01 , Vinaigriers - Magenta
+25 , 01 , Pelée Alphonse Baudin
+6 , 01 , Honoré d'Estienne d'Ovres - Grilles
+15 , 01 , Volontaire - Lecourbe
+4 , 01 , Indre - Prairies
+13 , 01 , Mathurins - Auber
+15 , 01 , Montgallet - Charenton
+40 , 01 , Charles Delescluze
+5 , 01 , Mazagran - Bonne Nouvelle
+0 , 01 , Place de la Gare
+9 , 01 , Condorcet-Turgot
+6 , 01 , Evangile - Aubervilliers
+1 , 01 , Chernoviz - Raynouard
+7 , 01 , Batignolles - Rome
+24 , 01 , Bobillot - Tolbiac
+9 , 01 , Place du Colonel Fabien 
+16 , 01 , David Weill - Parc Montsouris
+4 , 01 , Place du Canada
+5 , 01 , Colonel Monteil - Brune
+9 , 01 , Jardins d'Eole
+4 , 01 , Cherche-Midi - Hôpital Necker
+5 , 01 , Montreuil - République
+24 , 01 , Charenton - Wattignies
+12 , 01 , Cambronne - Villa Croix Nivert
+25 , 01 , Cordelières - Arago
+15 , 01 , Place Carnot
+37 , 01 , Hector Malot - Daumesnil
+8 , 01 , Noisy le Sec - Jean-Baptiste Clément
+12 , 01 , George Sand - Jean de La Fontaine
+10 , 01 , Eugène Oudiné Dessous Des Berges
+7 , 01 , Mouton Duvernet - Général Leclerc
+36 , 01 , Jean Macé - Faidherbe
+1 , 01 , Belleville - Télégraphe
+0 , 01 , Pyrénées-Plaine
+5 , 01 , Gare de Pont-Cardinet
+8 , 01 , Goubet - Darius Milhaud
+32 , 01 , Place Marcel Cachin
+17 , 01 , République - Henri Barbusse
+6 , 01 , Pierre Charron - Champs-Elysées
+0 , 01 , Porte de Saint Cloud - Parc des Princes
+0 , 01 , Pau Casals - Neuve Tolbiac
+4 , 01 , Victoria - Place du Chatelet
+33 , 01 , Vasco de Gama
+12 , 01 , Hôtel de Ville
+2 , 01 , Saint-Séverin - Saint-Michel
+0 , 01 , Place Jean-Baptiste Clément
+18 , 01 , Boétie - Ponthieu
+4 , 01 , Cambrai - Benjamin Constant
+13 , 01 , Jouffroy d'Abbans - Wagram
+11 , 01 , Mézières - Rennes 
+4 , 01 , Marcel Yol - Julien
+4 , 01 , Constantine - Université
+28 , 01 , Théâtre - Lourmel
+16 , 01 , Arcole - Notre-Dame
+18 , 01 , Charenton - Diderot 
+2 , 01 , Université Paris Dauphine 
+7 , 01 , Gambetta - Père Lachaise
+18 , 01 , Place Marcel Sembat
+5 , 01 , Toqueville - Cardinet
+21 , 01 , Jules Ferry - Faubourg du Temple Paris
+2 , 01 , Saint-Jacques - Tombe Issoire
+22 , 01 , Sèvres - Lecourbe
+2 , 01 , Pyrénées - Cours de Vincennes
+9 , 01 , Euryale Dehaynin - Loire
+22 , 01 , Parmentier - Hôpital Saint-Louis
+24 , 01 , Richard Lenoir - Place de la Bastille
+5 , 01 , Rossini - Laffitte
+3 , 01 , Madame de Sanzillon - Mozart
+22 , 01 , Stalingrad - Rigollots
+5 , 01 , René Binet - Porte de Montmartre
+17 , 01 , Simon Bolivar - Henri Turot
+5 , 01 , Didot - Mariniers
+6 , 01 , Chartres - La Charbonnière
+3 , 01 , Georges Bernanos - Port Royal
+3 , 01 , Sambre et Meuse - Villette
+4 , 01 , Pont de Lodi - Dauphine 
+17 , 01 , Froment - Bréguet
+2 , 01 , François Ponsard - La Muette 
+1 , 01 , Chazelles - Courcelles 
+6 , 01 , Tour d'Auvergne - Rodier
+3 , 01 , Daunou - Louis le Grand
+14 , 01 , Stephenson - Doudeauville
+2 , 01 , Ventadour - Opéra
+0 , 01 , Picpus - Louis Braille
+3 , 01 , Assemblée Nationale
+4 , 01 , Dunkerque - Rocroy
+3 , 01 , Petites Ecuries - Faubourg Poissonnière
+15 , 01 , Larmeroux - Baudelaire
+5 , 01 , Gare du Nord - Hôpital Lariboisière
+14 , 01 , Place Charles Digeon
+3 , 01 , Botzaris - Parc des Buttes Chaumont
+1 , 01 , Damrémont - Caulaincourt
+11 , 01 , Hôtel de Ville
+3 , 01 , Etienne Jodelle - Saint Ouen
+4 , 01 , Gambetta - Hôpital Tenon
+28 , 01 , Charles Frérot - Albert Guilpin
+2 , 01 , Dunkerque - Alsace
+15 , 01 , Cadet - La Fayette
+6 , 01 , Edouard Vaillant - Paul-Adolphe Souriau
+2 , 01 , Pierre-et-Marie-Curie-Julien-Grimau
+5 , 01 , Reims - Porte d'Asnières
+6 , 01 , Assas - Vaugirard
+3 , 01 , Place de la Nation - Picpus
+5 , 01 , Estienne d'Orves - Henri Ginoux
+8 , 01 , Regard - Rennes
+42 , 01 , Mairie 
+10 , 01 , Richard Lenoir - Voltaire
+5 , 01 , André Karman  République
+6 , 01 , Censier - Santeuil
+7 , 01 , Carpeaux - Place Jacques Froment
+24 , 01 , Brochant - Clichy
+9 , 01 , Mairie du 7ème
+16 , 01 , Beaumarchais - Pas de la Mule
+6 , 01 , Blaise-Desgoffe - Vaugirard
+14 , 01 , Victor Hugo - Bineau
+8 , 01 , Charonne - Pierre Bayle
+8 , 01 , Place Pasdeloup
+4 , 01 , Mozart - Jasmin
+8 , 01 , Saint-Romain - Cherche-Midi
+7 , 01 , Mairie du 14ème
+18 , 01 , Pereire - Saussure
+2 , 01 , Saint-Didier - Raymond Poincaré
+24 , 01 , Jean Jaurès - Reine
+13 , 01 , Liège
+26 , 01 , Bourdon - Pont Morland
+5 , 01 , Léon - Doudeauville
+11 , 01 , Emeriau - Place de Brazzaville
+2 , 01 , Thérèse - Opéra
+17 , 01 , Balard - Montagne de la Fage
+6 , 01 , Place des Abbesses
+4 , 01 , Saint-Fiacre - Poissonière
+11 , 01 , Pirogues de Bercy - Libourne
+6 , 01 , Place de la Porte de Champerret
+13 , 01 , Temple - Charlot
+13 , 01 , Charenton - Jardiniers
+1 , 01 , Hôpital Robert Debré
+1 , 01 , Pré Saint-Gervais - Lilas
+15 , 01 , Porte Molitor
+4 , 01 , Batignolles - Abel Truchet
+24 , 01 , Félix Faure - Sadi Carnot
+3 , 01 , Alfred de Vigny - Place du Général Brocard
+19 , 01 , Charonne - Faubourg Saint-Antoine
+2 , 01 , Mairie du 9ème
+5 , 01 , Mairie du 2ème
+5 , 01 , Crevaux - Bugeaud
+1 , 01 , Verdier - République
+5 , 01 , Olympiades
+7 , 01 , Porte de Vincennes 
+14 , 01 , Jean-François Lépine - Stephenson
+7 , 01 , Marcelin Berthelot
+5 , 01 , Hôtel de Ville - Pont-Marie
+11 , 01 , Pierre Demours - Laugier
+5 , 01 , Manin - Carrières d'Amérique
+22 , 01 , Wurtz - Tolbiac
+5 , 01 , Jouffroy d'Abbans - Villiers
+16 , 01 , Gare de Reuilly - Picpus
+2 , 01 , Place de la Nation - Charonne
+28 , 01 , Beaumarchais-Saint-Gilles
+2 , 01 , Bassano -  Iéna
+5 , 01 , Eylau - Trocadéro
+17 , 01 , Gare SNCF Vanves-Malakoff
+9 , 01 , Montmartre - Etienne Marcel
+8 , 01 , Porte Dorée
+3 , 01 , Méchain - Faubourg Saint-Jacques
+7 , 01 , Place André Malraux
+13 , 01 , Saint-Maur - République
+4 , 01 , René Boulanger - Lancry
+28 , 01 , Gare de Lyon - Roland Barthes
+7 , 01 , Berri - Haussmann
+17 , 01 , Montreuil - Voltaire
+20 , 01 , Gobelins - Port-Royal
+22 , 01 , Place du Maréchal de Lattre de Tassigny
+13 , 01 , Saint-Lazare - Place d'Estienne d'Orves
+2 , 01 , Villiers - Batignolles
+9 , 01 , Dareau - Broussais
+6 , 01 , Marceau - Président Wilson
+6 , 01 , Saint-Germain-des-Prés
+1 , 01 , Odessa
+8 , 01 , Rochechouart lamartine
+45 , 01 , Malesherbes - Place de la Madeleine 
+3 , 01 , Miromesnil - La Boétie
+21 , 01 , Place de Rungis
+3 , 01 , Fernand Braudel - Vincent Auriol 
+4 , 01 , Jouffroy d'Abbans - Malesherbes
+8 , 01 , Jardin de l'Hospice Debrousse
+3 , 01 , Provence - Chaussée d'Antin
+3 , 01 , Belleville - Pyrénées
+3 , 01 , Porte Maillot - Pereire
+16 , 01 , Jacquier - Didot
+49 , 01 , Place du Palais Royal
+5 , 01 , Douai - Bruxelles
+13 , 01 , Nationale - Place Jules Guesde
+3 , 01 , Godot de Mauroy - Madeleine
+1 , 01 , Jeanne Hornet - Girardot
+10 , 01 , Riquet - Marx Dormoy
+1 , 01 , Galilée - Vernet
+7 , 01 , Archives - Rivoli
+44 , 01 , Cambronne - Mademoiselle
+2 , 01 , Charles de Gaulle - Plateau de Vanves
+1 , 01 , Uzès - Montmartre
+0 , 01 , Gambetta - Tourelles
+22 , 01 , Victor Hugo - Galliéni
+37 , 01 , Parc André Citroën
+20 , 01 , Lourmel - Marie Skobtsov
+7 , 01 , Villersexel - Saint-Germain
+2 , 01 , Marceau - Chaillot
+5 , 01 , Leibniz - Jean Dollfus
+23 , 01 , Place Adolphe Cherioux - Vaugirard
+1 , 01 , Lisbonne - Monceau
+19 , 01 , Anatole France Jean Lolive
+12 , 01 , Porte de Clignancourt
+14 , 01 , Paul Bodin - Clichy
+4 , 01 , Arthur Ranc - Hôpital Bichat
+7 , 01 , Quai Marcel Boyer-Victor Hugo
+14 , 01 , Colonel Pierre Avia
+14 , 01 , Alfred Roll - Berthier
+3 , 01 , Marché d'Auteuil
+2 , 01 , Thouin - Cardinal Lemoine
+4 , 01 , Faubourg Montmartre
+17 , 01 , Charenton - Prague
+28 , 01 , Bourdonnais - Tour Eiffel
+13 , 01 , Jacques Kellner - Saint-Ouen
+5 , 01 , Lacépède - Linné
+21 , 01 , Belleville - Couronnes
+3 , 01 , Chaussée d'Antin - Haussmann
+8 , 01 , Place du Moulin de Javel
+14 , 01 , Metz - Marne
+3 , 01 , Récollets-Square-Villemin
+0 , 01 , Herschel - Observatoire 
+15 , 01 , Alesia - Suisses
+3 , 01 , Porte de Versailles 
+5 , 01 , Le Goff - Gay-Lussac
+1 , 01 , Le Vau - Maurice Bertaux
+10 , 01 , Blancs-Manteaux - Archives 
+7 , 01 , Cambon - Rivoli
+3 , 01 , Danton - Serpente
+5 , 01 , Estrapade - Ulm
+5 , 01 , Courcelles - Place des Ternes
+9 , 01 , Institut de France
+20 , 01 , Franquet - Labrouste
+2 , 01 , Beaux-Arts - Bonaparte
+8 , 01 , Maine - Jean Zay  
+3 , 01 , Boulard - Daguerre
+6 , 01 , Porte d'Auteuil
+3 , 01 , Raffet-Montmorency
+5 , 01 , Sorbier - Ménilmontant
+10 , 01 , Manin - Crimée
+3 , 01 , Eglise d'Auteuil
+3 , 01 , Benoît Frachon - République
+29 , 01 , Bois de Vincennes - Polygone
+0 , 01 , Hôpital Pitié-Salpêtrière
+3 , 01 , Porte de la Muette
+2 , 01 , Gare Saint-Lazare - Place de Budapest
+0 , 01 , Dutot - Place Alleray
+12 , 01 , Square Etienne Jarousse
+0 , 01 , Notre-Dame-des-Champs - Stanislas
+1 , 01 , Sénat - Condé
+2 , 01 , Pyrénées - Ménilmontant
+7 , 01 , Guynemer - Jardin du Luxembourg
+8 , 01 , Octave Feuillet - Albéric Magnard
+14 , 01 , Louis Blanc - Aqueduc 
+5 , 01 , Raspail - Varenne
+2 , 01 , Place Saint-Ferdinand
+2 , 01 , Calmette
+19 , 01 , Fontainebleau - Edmond Michelet
+15 , 01 , Seine - Flandre
+10 , 01 , Geoffroy-Marie
+6 , 01 , Square Pierre-Lazareff
+1 , 01 , Beffroy
+18 , 01 , Pierre Grenier - Pont de Billancourt
+17 , 01 , Jules Vallès - Charonne
+18 , 01 , Fille du Calvaire-Turenne
+14 , 01 , Arsonval Falguière
+12 , 01 , Alger - Rivoli
+1 , 01 , Porte d'Orléans
+10 , 01 , Reynaldo Hahn - Lagny
+19 , 01 , Parmentier - Fontaine au Roi
+3 , 01 , Alexander Fleming - Belvédère
+4 , 01 , Pierre Sarrazin - Saint-Michel
+4 , 01 , Edouard Pailleron - Bouret
+17 , 01 , Place de la Reine Astrid
+17 , 01 , Centquatre
+5 , 01 , Botzaris - Crimée
+3 , 01 , Marignan - Champs-Elysées
+0 , 01 , Bercy - Villot
+11 , 01 , Lemercier - Cardinet
+13 , 01 , Pierre Levée - Fontaine Timbaud
+1 , 01 , Jean-Jacques Rousseau - Deux Ecus
+7 , 01 , Hameau Fleuri - Marché
+1 , 01 , Mac-Mahon - Brey
+5 , 01 , Square de la rue Pixérécourt
+33 , 01 , Mairie du 11ème
+0 , 01 , Lacépède - Monge
+18 , 01 , Jacques Callot - Mazarine
+3 , 01 , Lamennais - Washington 
+7 , 01 , Brancion - Lefebvre
+20 , 01 , Molière - République
+6 , 01 , Lagny - Victor Basch
+30 , 01 , Saint-Vincent - Verdun
+2 , 01 , Dunkerque - Trudaine
+9 , 01 , Place Robert Guillemard
+9 , 01 , Pyrénées - Maraîchers
+3 , 01 , Quai de Valmy
+2 , 01 , Place de l'Hôtel de Ville
+8 , 01 , Grands Moulins de Pantin
+1 , 01 , Louis le Grand-Italiens
+25 , 01 , Félix Faure - Convention
+19 , 01 , Murat - Porte de Saint-Cloud
+23 , 01 , Colmar - Victor Hugo
+19 , 01 , Oberkampf - République
+0 , 01 , François 1er - Lincoln
+15 , 01 , Quai Panhard et Levassor
+2 , 01 , Pergolèse - Malakoff
+4 , 01 , Port de Solférino
+6 , 01 , Parme - Clichy
+2 , 01 ,  Jean Bleuzen - Square du 11 Novembre
+19 , 01 , Pajol - Place Herbert
+3 , 01 , Douai - Pierre Fontaine
+8 , 01 , Roquette - Auguste Laurent
+0 , 01 , Clichy - Place Blanche
+2 , 01 , Schoelcher - Raspail
+1 , 01 , Favart - Italiens
+11 , 01 , Palais des Sports
+16 , 01 , Institut du Monde Arabe - Saint-Germain
+28 , 01 , Sainte-Elisabeth-Turbigo
+11 , 01 , Mutualité
+0 , 01 , Alexandre Dumas 
+13 , 01 , Lorraine - Jean Jaurès 
+4 , 01 , Hauteville - Bonne Nouvelle
+4 , 01 , Quai de la Loire - Jean Jaurès
+20 , 01 , Victor Cresson - Telles de la Poterie
+16 , 01 , Louis Pasteur - Albert Petit
+2 , 01 , Boyer - Ménilmontant
+3 , 01 , Bréa - Raspail
+9 , 01 , Marché Secrétan
+9 , 01 , Vignes - Boulainvilliers
+3 , 01 , Saint-Fargeau - Mortier
+3 , 01 , Evariste Galois
+11 , 01 , Lacuée
+9 , 01 , Louis Blanc - Jemmapes
+2 , 01 , Jean Jaurès - Jules Jacquemin
+4 , 01 , Belfort - Voltaire
+9 , 01 , Oratoire - Rivoli
+2 , 01 , Balzac - Champ Elysées
+4 , 01 , Suffren - La Motte-Piquet
+17 , 01 , Petit - Manin
+1 , 01 , Jourdain - Place des Grandes Rigoles
+4 , 01 , Pereire-Ternes
+8 , 01 , Gabriel Péri  Francisco Ferrer
+9 , 01 , Haies - Réunion
+9 , 01 , Saint-Placide - Cherche Midi
+13 , 01 , Championnet - Vauvenargues
+2 , 01 , De Toqueville - Terrasse
+18 , 01 , Saint-Blaise - Mouraud
+8 , 01 , Bagnolet - Place Saint Blaise
+8 , 01 , Silly - Galliéni
+9 , 01 , Richard Lenoir - Jean-Pierre Timbaud
+13 , 01 , Enfants du Paradis - Peupliers
+18 , 01 , Bertrand Sincholle - Henri Barbusse
+3 , 01 , Mairie du 8ème 
+15 , 01 , Gare de Lyon - Chalon
+19 , 01 , Commerce - Letellier
+9 , 01 , Pyrénées - Dagorno
+8 , 01 , Piat - Parc de Belleville
+8 , 01 , Duhamel - André Gide
+5 , 01 , Maine - Liancourt
+9 , 01 , Tombe Issoire - René Coty
+16 , 01 , Flandre - Ourcq
+0 , 01 , Cours de Vincennes - Davout
+10 , 01 , Turbigo - Réaumur
+22 , 01 , Parmentier - Abel rabaud
+1 , 01 , Chevaleret - Louise Weiss
+4 , 01 , Square Simon Bolivar
+2 , 01 , Square des Amandiers
+6 , 01 , Serrurier 
+4 , 01 , Lauriston - Copernic
+6 , 01 , Parc Suzanne Lenglen
+6 , 01 , Pergolèse - Marbeau
+4 , 01 , Batignolles - Place de Clichy 
+4 , 01 , Moncey - Blanche
+27 , 01 , Mairie du 15ème
+18 , 01 , Ruisseau - Ordener 
+4 , 01 , Messine - Place Du Pérou 
+8 , 01 , Legendre - Dulong
+3 , 01 , Gare du Nord-Saint-Vincent de Paul
+29 , 01 , Jean Monnet - Iles
+10 , 01 , Jean Mermoz - Champs-Elysées
+16 , 01 , Saint-Gilles - Turenne
+21 , 01 , Dupleix - du Guesclin
+1 , 01 , Ambroise Rendu - Porte Brunet
+7 , 01 , Gare Montparnasse - René Mouchotte
+4 , 01 , Square Léon
+12 , 01 , Championnet
+3 , 01 , Place Denfert-Rochereau
+13 , 01 , Francoeur - Marcadet
+12 , 01 , Benjamin Delessert - Jean Lolive
+0 , 01 , Bertie Albrecht - Hoche
+8 , 01 , Hôtel de Ville 
+1 , 01 , Guy Môquet - Etienne Dolet 
+14 , 01 , Place Etienne Pernet
+6 , 01 , Coquillière - Louvre
+24 , 01 , Landy - Heurtault
+0 , 01 , Plantes - Moulin Vert
+3 , 01 , Saint-Augustin
+4 , 01 , Lagny - Joffre
+8 , 01 , La Motte-Picquet - Grenelle
+10 , 01 , Surcouf - Université
+17 , 01 , Mathis - Flandre
+5 , 01 , Abbeville - Faubourg Poissonnière
+2 , 01 , Chevreuse - Montparnasse
+5 , 01 , Goutte d'or - Barbès
+10 , 01 , Moulin de la Pointe
+20 , 01 , Hautpoul - Jean Jaurès
+17 , 01 , Crozatier - Faubourg Saint-Antoine
+0 , 01 , Jonquière - Docteur Paul Brousse
+4 , 01 , Gare de l'Est - Fidélité
+8 , 01 , Gare du Nord - Faubourg Saint-Denis
+16 , 01 , René Coty - Parc Montsouris
+6 , 01 , Saint-Sulpice
+3 , 01 , Rocher - Laborde
+8 , 01 , Général De Gaulle Allouette
+7 , 01 , Vieille du Temple - Francs Bourgeois
+8 , 01 , Roquette - Folie Regnault
+16 , 01 , Place du Président Salvador Allende
+17 , 01 , Centenaire - Sorins
+2 , 01 , Romain Rolland
+15 , 01 , Etienne Dolet - Place Maurice Chevalier
+19 , 01 , Varenne
+32 , 01 , Général Michel Bizot - Claude Decaen
+14 , 01 , Pierre et Marie Curie - Maurice Thorez
+38 , 01 , Bastille - Biscornet
+3 , 01 , Athènes - Clichy
+20 , 01 , Place Jean-Spire-Lemaître
+4 , 01 , Frères Flavien - Porte des Lilas
+6 , 01 , Brochant - Square des Batignolles 
+16 , 01 , Convention - Saint-Charles
+12 , 01 , Grande Truanderie - Saint-Denis
+2 , 01 , Abbé Groult - Convention
+1 , 01 , Place Georges Guillaumin
+9 , 01 , Chabrol - d'Hauteville
+3 , 01 , Londres - Place d'Estienne d'Orves
+3 , 01 , Jemmapes - Ecluses Saint-Martin 
+17 , 01 , Granges aux Belles
+2 , 01 , Joseph Sansboeuf - Saint Lazare
+6 , 01 , Roquépine - Malesherbes
+11 , 01 , Ranelagh - Mozart
+31 , 01 , Square Saint-Ambroise
+19 , 01 , Granges aux Belles - Hôpital Saint-Louis
+0 , 01 , Taitbout - Châteaudun
+6 , 01 , Port-Royal - Hôpital du Val-de-Grâce
+10 , 01 , André Mazet - Saint-André des Arts
+7 , 01 , Gare Montparnasse - Edgar Quinet
+1 , 01 , Toudouze - Clauzel
+1 , 01 , Quatre Vents - Carrefour de l'Odéon
+3 , 01 , Place Balard 
+9 , 01 , Desaix - Edgar Faure
+15 , 01 , Emile Blemont - Poteau
+7 , 01 , Ordener - Poissonniers
+14 , 01 , Pyrénées-Avron
+6 , 01 , Londres - Amsterdam
+15 , 01 , Léon Frot - Charonne
+3 , 01 , Carducci- Place Hannah Arendt
+5 , 01 , Galilée - Kléber
+4 , 01 , Gare Saint-Lazare - Isly
+17 , 01 , Gare RER - Malleret-Joinville
+13 , 01 , Saint-Maur - Roquette
+2 , 01 , Lassus-Delouvain
+4 , 01 , Octave Gréard - Tour Eiffel
+12 , 01 , Roquette - Thiéré
+4 , 01 , Saint-Honoré - Musée du Louvre
+14 , 01 , Mongallet - Reuilly
+1 , 01 , Quai de l'Horloge - Pont Neuf
+3 , 01 , François Debergue - Croix de Chavaux
+9 , 01 , Jean Jaurès - Presles
+11 , 01 , Gare de Nogent-le-Perreux
+15 , 01 , Reims - Raymond Pitet
+2 , 01 , Hoche - Tilsitt
+17 , 01 , Gare d'Austerlitz - Hôpital
+12 , 01 , Porte Saint-Martin
+14 , 01 , Rond-Point de la Chapelle
+2 , 01 , Quai de la Seine
+5 , 01 , Square Emile - Chautemps
+6 , 01 , Paul Barruel - Vaugirard
+4 , 01 , Place de Rhin et Danube
+15 , 01 , Temple - Jean-Pierre Timbaud
+21 , 01 , Fédération - Suffren
+3 , 01 , Taitbout - La Fayette
+7 , 01 , Gare d'Austerlitz
+2 , 01 , Caumartin - Provence
+12 , 01 , Cité Riverin - Château d'Eau 
+25 , 01 , Edouard Poisson - Victor Hugo
+8 , 01 , Quai de l'Aisne - Général Leclerc
+3 , 01 , Charles de Gaulle - Orléans 
+5 , 01 , Charles de Gaulle - Jean Lolive 
+3 , 01 , Charles de Gaulle - Madrid
+2 , 01 , Vaugirard - Monsieur le Prince
+23 , 01 , Morice - Général Leclerc
+0 , 01 , Place des Ternes
+1 , 01 , Hôtel de ville
+15 , 01 , Greneta - Sebastopol
+10 , 01 , Villiers de l'Isle Adam - Pyrénées
+2 , 01 , Gare de Laplace
+6 , 01 , Place de la République
+0 , 01 , Bleue - Trévise
+23 , 01 , Village Saint-Paul
+3 , 01 , Chevaleret - Tolbiac
+0 , 01 , Place-Violet
+1 , 01 , Place Centrale 
+14 , 01 , Cauchy - Cévennes
+13 , 01 , Richard Wallace - Place du 8 Mai 1945
+6 , 01 , Place Jules Ferry
+3 , 01 , Véron - Lepic
+9 , 01 , Gare RER
+10 , 01 , Hôpital Bégin
+15 , 01 , Pont De Charenton
+4 , 01 , Porte de la Plaine - Lefebvre
+9 , 01 , Guy Môquet - Saint-Ouen
+7 , 01 , Brillat-Savarin - Küss
+14 , 01 , Grand Prieuré - Crussol
+7 , 01 , Berthier - Place Stuart Merril
+0 , 01 , Paris - Laitieres
+22 , 01 , Westermeyer-Paul Vaillant-Couturier 
+5 , 01 , Gare de l'Est - Faubourg-Saint-Martin
+2 , 01 , Mairie
+10 , 01 , Gaston Roussel - Commune de Paris
+6 , 01 , Anatole France - Louise Michel
+5 , 01 , Jean Colly - Tolbiac
+8 , 01 , Place du 14 Juillet
+17 , 01 , Jean Jaurès - Ouvrières Pivéreuses
+18 , 01 , Place Charles Vallin
+23 , 01 , Emeriau - Beaugrenelle
+16 , 01 , Pont-Neuf - Quai du Louvre
+2 , 01 , Stade Georges Carpentier
+12 , 01 , Place du Lieutenant Henri Karcher
+0 , 01 , Théophile Gautier - François Millet
+8 , 01 , Candale-Mehul
+4 , 01 , Place de la Porte de Passy
+7 , 01 , Félix Ziem - Armand Gauthier
+14 , 01 , Hôtel-de-Ville-Pont-d'Arcole
+1 , 01 , Senard - Longchamp
+0 , 01 , Berges de Seine - Musée d'Orsay
+21 , 01 , Charonne - Alexandre Dumas
+3 , 01 , Charles de Gaulle - Gravier
+16 , 01 , Place Fernand Forest
+17 , 01 , Proudhon - Président Wilson
+10 , 01 , Guichet - Jean Jaurès
+3 , 01 , Porte de Saint-Ouen - Bessières
+19 , 01 , Wilson - Métallurgie
+5 , 01 , Paris - Emile Zola
+42 , 01 , Boutroux - Porte de Vitry
+15 , 01 , Ivry- Simone Weil
+14 , 01 , Wilson - Landy
+28 , 01 , Place Mongolfier
+6 , 01 , Pont de Levallois-bécon 
+26 , 01 , Professeur René Leriche-général Leclerc 
+11 , 01 , Mairie
+1 , 01 , Ledru-Rollin - Charonne
+10 , 01 , Metz - Faubourg Saint-Denis
+12 , 01 , Lucien Sampaix - Récollets
+4 , 01 , Bara-Henri Farman
+16 , 01 , La Jarry - Place Diderot
+10 , 01 , Saint-Denis - Rivoli
+1 , 01 , Invalides-Duroc
+6 , 01 , Italie - Jardin Joan Miro
+12 , 01 , Bosquet - Saint-Dominique
+30 , 01 , Place Jacques Bonsergent
+5 , 01 , Perle - Vieille du Temple
+1 , 01 , Caulaincourt - Place Constantin Pecqueur
+3 , 01 , Place de Lévis
+20 , 01 , Gaston Tessier - Rosa Parks RER
+8 , 01 , Clignancourt - Ordener
+4 , 01 , Gare Routière
+19 , 01 , Daumesnil - Picpus
+16 , 01 , Bois de Vincennes
+3 , 01 , Ville-RER
+2 , 01 , André Maurois - Joseph et Marie Hackin
+1 , 01 , Mont Valérien - Michel Salles
+17 , 01 , Président Wilson-Baudin
+13 , 01 , Square du Bataclan
+7 , 01 , Vitruve - Davout
+6 , 01 , Jules Guesde-Alsace
+6 , 01 , Commandant l'Herminier - Gallieni
+5 , 01 , Marcelle - Thalie
+11 , 01 , Porte d'Asnières
+1 , 01 , Square du Théâtre du Garde-Chasse
+2 , 01 , Saint Georges - d'Aumale
+40 , 01 , Parvis Corentin Celton
+5 , 01 , Square Alban Satragne
+11 , 01 , Hôpital - Campo-Formio
+3 , 01 , Olivier de Serres-Leriche
+9 , 01 , Jardin d'Acclimatation
+13 , 01 ,  Place Léon Gambetta
+18 , 01 , Quai de l'Oise - Aisne
+9 , 01 , Victor Hugo - Magasins Généraux
+0 , 01 , Lepic - Armée d'Orient
+21 , 01 , Chanzy - Sud-Est
+0 , 01 , Ecole Militaire- Place Joffre
+12 , 01 , Gare de l'Est - Place du 11 Novembre 1918
+2 , 01 , Place du Maréchal Juin - Péreire
+16 , 01 , Gare Arcueil-Cachan
+20 , 01 , Française - Etienne Marcel
+0 , 01 , Rivoli - Musée du Louvre
+1 , 01 , Charles Gide - Fort de Bicêtre 
+3 , 01 , Sebastopol - Rambuteau
+2 , 01 , Jean Moulin - Paul Doumer
+6 , 01 , Boulets - Voltaire
+29 , 01 , Edouard Vaillant - Galliéni
+21 , 01 , Président Wilson - Jean Jaures
+14 , 01 , Faidherbe - Dahomey
+10 , 01 , Place du Maquis du Vercors
+19 , 01 , Gravelle - Route du Bac
+11 , 01 , Saint-Antoine Sévigné 
+6 , 01 , Paul Doumer - Stalingrad
+1 , 01 , Ney - Porte de Montmartre
+11 , 01 , Bachaumont - Montmartre
+3 , 01 , Henri Barbusse - Stalingrad
+7 , 01 , Place Charles de Gaulle 
+0 , 01 , Square Louise Michel
+0 , 01 , Place Jacques et Thérèse Tréfouël
+9 , 01 , Place Jeanne d'Arc
+0 , 01 , Place du Docteur Yersin
+13 , 01 , Place du Général de Gaulle
+8 , 01 , Paris - Désiré Préaux
+8 , 01 , Delphine Seyrig - Général Leclerc
+6 , 01 , Mairie de Quartier du Mont Valérien
+23 , 01 , Hôtel de Ville 
+2 , 01 , Traktir - Foch
+0 , 01 , Portugais - Kléber
+0 , 01 , Emile Zola - Fondary
+0 , 01 , Bessières - Porte de Clichy
+3 , 01 , Saint-Mandé - Fabre-deglantine
+15 , 01 , Hautes Bornes - Stalingrad
+2 , 01 , Delizy - Louis Nadot
+1 , 01 , Porte des Lilas - Faidherbe
+13 , 01 , Croulebarde - Corvisart
+7 , 01 , Porte d'Italie
+15 , 01 , Primo Levi - Frigos
+0 , 01 , Place Jean Delay
+0 , 01 , Pitié-Salpêtrière
+0 , 01 , Carnot - Général Lanrezac
+8 , 01 , Choisy - Tolbiac 
+21 , 01 , Pierret - Madrid
+0 , 01 , Henri Ste-Claire Déville - Paul Héroult
+4 , 01 , La Motte-Piquet La Tour Maubourg
+22 , 01 , Mairie du 3ème
+5 , 01 , Bourse du Travail
+13 , 01 , Beaubourg - Michel-le-Comte
+6 , 01 , Place de la République-Temple
+6 , 01 , Centre Georges Pompidou
+6 , 01 , Gare Montparnasse - Arrivée
+6 , 01 , Place d'Italie - Soeur Rosalie
+9 , 01 , Ferrus - Saint-Jacques
+14 , 01 , Bobillot - Paulin Mery
+2 , 01 , Place d'Italie - Vincent Auriol
+4 , 01 , Gare de l'Est - Faubourg Saint-Denis
+21 , 01 , Montreuil-Gonnet
+0 , 01 , La Fouilleuse-Place Nelson Mandela 
+6 , 01 , René Coty - Place Denfert-Rochereau
+0 , 01 , Général Martial Valin - Pont du Garigliano
+2 , 01 , Ney - Porte de Clignancourt 
+0 , 01 , Pyramide - Ecole du Breuil 
+6 , 01 , Quai des Célestins-Henri IV
+0 , 01 , Jean Oestreicher-Porte de Champerret
+4 , 01 , Porte Pouchet-Bessières
+5 , 01 , Charonne-Bureau
+0 , 01 , Cité de la Musique 
+9 , 01 , Parc Eli Lotar
+0 , 01 , Hôpital Européen Georges Pompidou 
+0 , 01 , Bagnolet - Orteaux
+0 , 01 , Raspail - Chomel
+1 , 01 , Halle Freyssinet-Parvis Alan Turing
+0 , 01 , Villette - Belleville
+0 , 01 , Gare de Clamart
+14 , 01 , Chemin Vert - Saint-Maur
+12 , 01 , Joseph Dijon - Ornano
+24 , 01 , Lakanal - Commerce
+0 , 01 , Richard Lenoir
+0 , 01 , Place Jean Ferrat
+13 , 01 , Suffren-Champ de Mars
+0 , 01 , George-V-Christophe Colomb
+3 , 01 , Faubourg Du Temple - Republique
+0 , 01 , Vincent Auriol-Louise Weiss
+0 , 01 , Paul Vaillant Couturier-Chaptal
+8 , 01 , Place de la République - Voltaire
+0 , 01 , Choiseul-Quatre Septembre 
+1 , 01 , Bordier - Félix Faure
+0 , 01 , Gare
+0 , 01 , Edouard Tremblay-Julian Grimau

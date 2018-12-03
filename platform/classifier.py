@@ -1,20 +1,29 @@
 import numpy
-from sklearn.model_selection import train_test_split
+import pandas
+
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.ensemble import RandomForestClassifier
-import pandas
 from sklearn.metrics import accuracy_score
+from sklearn.model_selection import train_test_split
+from sklearn.externals import joblib
 
+def get_model(filename):
+    mdl = joblib.load(filename)
+    return mdl
+
+def get_test_features(filename):
+    df = pandas.read_table(filename,delimiter=',', names=('nbBike','heure', 'nom_de_station'))
+
+    labels = df['nom_de_station'].values
+    featureNames = ['nbBike', 'heure']
+    features = df[featureNames].values
+    trainingFeatures, testFeatures, trainingLabels, testLabels = train_test_split(features, labels, test_size=0.3,random_state=1)
+    return testFeatures
 
 def classify(hour):
 
     filename = str('data_h\\'+hour+'.txt') 
-
-    print("using ",filename)
-
     df = pandas.read_table(filename, delimiter=',', names=('nbBike','heure', 'nom_de_station'))
-
-    #print(df.head(10),'\n')
 
     labels = df['nom_de_station'].values
     featureNames = ['nbBike', 'heure']
@@ -26,7 +35,6 @@ def classify(hour):
     #print(labels,'\n')
     #print(features)
     #print(features,'bike et heure \n')
-
 
     trainingFeatures, testFeatures, trainingLabels, testLabels = train_test_split(features, labels, test_size=0.3,random_state=1)
     #print(testFeatures)
@@ -45,35 +53,41 @@ def classify(hour):
     #print(model.predict_proba(testFeatures))
     #print(accuracy_score(testLabels, testLabels))
 
-
     proba_list={}
-    count= 0
-
     count_all = 0
     res= model.predict(testFeatures)
     for element in res:
         count_all +=1
         if element not in proba_list:
             proba_list[element] = 1
-            count+=1
         else:
             proba_list[element] += 1
-    count_alt = 0
-    print(count)
-    #print(proba_list)
-    print(count_all)
-    #print(proba_list)
     sum = 0
     for key in proba_list:
         
         #print(proba_list[key]*100/count_all)
         sum += ((proba_list[key]*100)/count_all)
         proba_list[key] = ((proba_list[key]*100)/count_all)
-        #sum+= proba_list[key]
-        #count_alt+=1
-
-    print(str(int(sum))+"%")
 
     print("BEST IS: ",max(proba_list),"\n\n")
-    print(proba_list)
+    return max(proba_list)
+
+def predict(model, testFeatures):
+    
+    res= model.predict(testFeatures)
+    proba_list={}
+    count_all =0
+    for element in res:
+        count_all +=1
+        if element not in proba_list:
+            proba_list[element] = 1
+        else:
+            proba_list[element] += 1
+    sum = 0
+    for key in proba_list:
+        
+        #print(proba_list[key]*100/count_all)
+        sum += ((proba_list[key]*100)/count_all)
+        proba_list[key] = ((proba_list[key]*100)/count_all)
+    print("BEST IS: ",max(proba_list),"\n\n")
     return max(proba_list)

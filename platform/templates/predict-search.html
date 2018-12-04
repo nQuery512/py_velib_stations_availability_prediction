@@ -31,6 +31,7 @@
     <h2 align="center" id="page-title">Recherche par location - Prediction<br>Algorithme : RandomForest</h2>
     <select id="hour-dropdown" style="font-size:3vh" name="Heure" ></select>
     <select id="minut-dropdown" style="font-size:3vh" name="Minute" ></select>
+    <select id="perimeter-dropdown" style="font-size:3vh" name="Perimeter" ></select>
     <button id='send-button' class="button"><span>Recherche</span></button>
 
     <div id='result-wrapper'>
@@ -43,10 +44,13 @@
             </div>
             <div id='textWrapper'>
                 <div id="station-list-div">
-                    <span><br><b>  Liste des stations:</b></span>
+                    <span><br><b>  Liste des stations</b></span>
                 </div>
                 <div id="distance-list-div">
-                    <span><br><b>Distance:</b><span>
+                    <span><br><b>Distance</b><span>
+                </div>
+                <div id="proba-list-div">
+                    <span><br><b>Proba</b><span>
                 </div>
             </div>
         </div>
@@ -57,37 +61,55 @@
             position: relative;
             width:100vw;
             height:60vh;
-            
         }
         #textWrapper
         {
-            background-color:red;
+            position: absolute;
+            width:100%;
+            height: 100%;
+            /*background-color:red;*/
             vertical-align: top;
+            top:0vh;
         }
         #station-list-div
         {
-            top:30vh;
+            top:0vh;
             position:absolute;
             width: 25vw;
             height: 80vh;
-            background-color: #ffffcc;
+            /*background-color: #ffffcc;*/
         }
         #distance-list-div
         {
-            top:30vh;
+            top:0vh;
             position: absolute;
             left:25vw;
-            width: 25vw;
+            width: 12.5vw;
             height:80vh;
             text-align: left;
-            background-color: #ffffff;
+            /*background-color: #ffffff;*/
         }
+        #proba-list-div
+        {
+            top:0vh;
+            position: absolute;
+            width: 12.5vw;
+            left:37.5vw;
+            height:80vh;
+            text-align: left;
+            /*background-color: yellow;*/
+        }
+
         #title-div
         {
+            top:-10vh;
+            position: absolute;
+            height: 5vh;
             width:50vw;
             text-align: center;
-            background-color: #F45042;
+            /*background-color: #F45042;*/
         }
+
         #map
         {   
             width:50vw;
@@ -100,7 +122,7 @@
             position: absolute;
             width:50vw;
             height:50vw;
-            background-color:#98f442;
+            /*background-color:#98f442;*/
         }
     </style>
 
@@ -148,6 +170,11 @@
         minute_dropdown.append('<option selected="true" disabled>Minute</option>');
         minute_dropdown.prop('selectedIndex', 0);
 
+        let perimeter_dropdown = $('#perimeter-dropdown');
+        perimeter_dropdown.empty();
+        perimeter_dropdown.append('<option selected="true" disabled>Rayon en mètres</option>');
+        perimeter_dropdown.prop('selectedIndex', 0);
+
         hour_list = []
         for(var count=0; count<24; count++)
             hour_list.push(count);
@@ -155,6 +182,23 @@
         minute_list = [];
         for(var count=0; count<60; count++)
             minute_list.push(count);
+
+        perimeter_list = []
+        for(var count=0; count<5; count++)
+        {
+            var tmp = (count+1)*500
+            perimeter_list.push(tmp);
+        }
+
+        var perimeter_ref = document.getElementById("perimeter-dropdown");
+        // Ajout de cases pour la liste déroulantes
+        for (var perimeter in perimeter_list)
+        {
+            var option = document.createElement("option");
+            option.text = perimeter_list[perimeter];
+            
+            perimeter_ref.add(option, perimeter);
+        }   
 
         var minute_ref = document.getElementById("minut-dropdown");
         // Ajout de cases pour la liste déroulantes
@@ -178,11 +222,17 @@
             var hour = document.getElementById("hour-dropdown");
             var value = hour.options[hour.selectedIndex].value;
             var text = hour.options[hour.selectedIndex].text;
+
+            var perimeter = document.getElementById("perimeter-dropdown");
+            var perimeter_text = perimeter.options[perimeter.selectedIndex].text;
+
             let latlng = myMarker.getLatLng()
-            var url = "http://localhost:5000/predict_stations?hour="+text+"&lat="+latlng.lat+"&long="+latlng.lng;
+            var url = "http://localhost:5000/predict_stations?hour="+text+"&lat="+latlng.lat+"&long="+latlng.lng+"&perimeter="+perimeter_text;
 
             $.get(url, function(data) {
                 
+                document.body.style.height = 200 + 'vh';
+
                 var regex1 = /({')/g;
                 data = data.replace(regex1,'{"');
                 var regex2 = /(':)/g;
@@ -215,17 +265,21 @@
                     iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
                     popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
                 });
-                
+                console.log('Nombre de stations retournées: '+station_array.length);
+
+                // Ecriture des résultats dans le frontend
                 for (station in station_array)
-                {     
+                {   
                     var nom_station = station_array[station][0];
                     var localisation = station_array[station][1];
+                    //alert(distance)
                     var distance = Math.round(station_array[station][2]);
-                    console.log(typeof(localisation));
+                    var pourcentage = station_array[station][3];
+                    //console.log(typeof(localisation));
                     L.marker(localisation,{draggable: false}).addTo(macarte);
                     $('#station-list-div').append('<br /><br /><span>  '+nom_station);
                     $('#distance-list-div').append('<br /><br />'+distance+'m</span>');
-
+                    $('#proba-list-div').append('<br /><br />'+pourcentage+'%</span>');
                 }
                 document.getElementById('info-dispo').style.display = "block";
             });

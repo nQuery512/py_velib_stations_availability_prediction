@@ -3,19 +3,6 @@ function redirection(route)
 	window.location = "http://localhost:5000/"+route
 }
 
-function getNearestStation()
-{
-	var e = document.getElementById("hour-dropdown");
-	var value = e.options[e.selectedIndex].value;
-	var text = e.options[e.selectedIndex].text;
-	var my_array;
-	var station_array = Array();
-	var url = "http://localhost:5000/predict_stations?hour="+text;
-	$.get(url, function( data ) {
-		alert(data);
-	});
-}
-
 function getSelectedValue()
 {
 	var e = document.getElementById("station-dropdown");
@@ -50,7 +37,6 @@ function getSelectedValue()
 	    	$('#station-state').css('display', 'block');
 	    	$('#station-overflow').css('display', 'block');
 	    	
-
 	    	// Vélo meca + vélo meca overflow ET velo elec + vélo elec overflow
 	    	if(station_array['overflow'] == "yes")
 	    	{
@@ -126,8 +112,6 @@ function getSelectedValue()
     		};
 					
 			var ctx = document.getElementById("dispo-graph").getContext('2d');
-			
-
 	    	var myDoughnutChart = new Chart(ctx, {
     			type: 'doughnut',
     			data: data_dispo,
@@ -135,7 +119,6 @@ function getSelectedValue()
 			});	
 
 			var ctx2 = document.getElementById("retour-graph").getContext('2d');
-
 	    	var myDoughnutChart = new Chart(ctx2, {
     			type: 'doughnut',
     			data: data_retour,
@@ -150,7 +133,4 @@ function getSelectedValue()
 	    	alert("Cette station est fermée pour le moment.");
 	    }
 	});
-
-
-	
 }

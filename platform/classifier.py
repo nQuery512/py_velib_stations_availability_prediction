@@ -29,13 +29,6 @@ def classify(hour):
     featureNames = ['nbBike', 'heure']
     features = df[featureNames].values
 
-    #labels = pandas.factorize(labels)[0]
-    #print(features[1][0])
-
-    #print(labels,'\n')
-    #print(features)
-    #print(features,'bike et heure \n')
-
     trainingFeatures, testFeatures, trainingLabels, testLabels = train_test_split(features, labels, test_size=0.3,random_state=1)
     #print(testFeatures)
 
@@ -65,7 +58,6 @@ def classify(hour):
     sum = 0
     for key in proba_list:
         
-        #print(proba_list[key]*100/count_all)
         sum += ((proba_list[key]*100)/count_all)
         proba_list[key] = ((proba_list[key]*100)/count_all)
 
@@ -73,7 +65,6 @@ def classify(hour):
     return max(proba_list)
 
 def predict(model, testFeatures):
-    
     res= model.predict(testFeatures)
     proba_list={}
     count_all =0
@@ -86,8 +77,7 @@ def predict(model, testFeatures):
     sum = 0
     for key in proba_list:
         
-        #print(proba_list[key]*100/count_all)
         sum += ((proba_list[key]*100)/count_all)
         proba_list[key] = ((proba_list[key]*100)/count_all)
-    print("BEST IS: ",max(proba_list),"\n\n")
-    return max(proba_list)
+    #print("BEST IS: ",max(proba_list),"\n\n")
+    return proba_list

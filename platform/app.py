@@ -1,12 +1,12 @@
 from flask import Flask
 from flask import request
 from flask_pymongo import PyMongo
+from pymongo import GEO2D
 from flask import jsonify
 from flask import render_template
 import os, json
-from bson.json_util import dumps
-import requests
 
+import requests
 import classifier
 
 app = Flask(__name__)
@@ -58,21 +58,69 @@ def get_one():
 
 @app.route('/predict_stations', methods=['GET', 'POST'])
 def get_nearest_station():
+    # Récupération des arguments de l'URL
     hour = request.args.get('hour')
+    gps_lat = request.args.get('lat')
+    gps_long = request.args.get('long')
+
+    # Création dynamique des noms de fichiers pour ouverture uniquement
     filename_txt = str('data_h\\'+hour+'.txt')
     filename = str('data_h\\'+hour+'.pkl')
     
+    # Création des features et modèles
     testFeatures = classifier.get_test_features(filename_txt)
-
     model = classifier.get_model(filename)
 
     # Appel de la fonction de prediction
     result = classifier.predict(model, testFeatures)
-    print(result)
-    # TODO: - Récupération des données de la carte open street map 
-    #       - Utilisation de requête geospatial + utilisation $geoNear geospatial request operator
-    #       - Test comparatif à l'aide des données temps réels
-    return str(result)
+
+    # Filtrage via la base mongodb
+    test_dist = 0
+
+    client.db.stations_records.create_index([("station.location.coordinates", "2dsphere")])
+    near_station = client.db.stations_records.aggregate([
+    {   
+        "$geoNear": 
+        {   
+            "near": 
+            {
+                "type": "Point", "coordinates": [float(gps_lat), float(gps_long)]
+            },
+            "distanceField": "station.location.calculated",
+            "maxDistance": 500,
+            "num":1000000,
+            "spherical": True    
+        }
+    },
+    {"$unwind":"$station.location.coordinates"},
+    {
+        "$group": 
+        {
+            "_id": "$_id",
+            "station_name":
+            { 
+                "$first": "$station.name"
+            },
+            "station_gps":
+            {
+                "$push": "$station.location.coordinates"
+            },
+            "station_distance": 
+            {
+                "$first": "$station.location.calculated"
+            }
+        }
+    }
+    ])
+    clean_station = []
+    clean_station_name = []
+    for station in near_station:
+        if(station['station_name'] not in clean_station_name):
+            del station['_id']
+            clean_station.append(station)
+            clean_station_name.append(station['station_name'])
+    print(clean_station)
+    return str(clean_station)
 
 if __name__ == '__main__':
     app.run(debug=True,host='0.0.0.0')

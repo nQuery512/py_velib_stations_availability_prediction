@@ -9,6 +9,9 @@ import os, json
 import requests
 import classifier
 
+static_file_url = os.path.join('static', 'data')
+print("\n\n",str(static_file_url), "\n\n")
+
 app = Flask(__name__)
 app.config["MONGO_URI"] = "mongodb://localhost:27017/projet_velib"
 client = PyMongo(app)
@@ -32,14 +35,14 @@ def home():
 @app.route('/rt-search', methods=['GET', 'POST'])
 def real_time_search():
     SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
-    json_url = os.path.join(SITE_ROOT, "static\\data", "nom_stations.json")
+    json_url = os.path.join(SITE_ROOT, "static","data", "nom_stations.json")
     json_data = json.load(open(json_url, encoding='utf-8'))
     return render_template('realtime-search.html', json_data=json.dumps(json_data, ensure_ascii=False).encode('utf-8'))
 
 @app.route('/predict-search', methods=['GET', 'POST'])
 def geographic_prediction_search():
     SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
-    json_url = os.path.join(SITE_ROOT, "static\\data", "nom_stations.json")
+    json_url = os.path.join(SITE_ROOT, "static", "data", "nom_stations.json")
     json_data = json.load(open(json_url, encoding='utf-8'))
     return render_template('predict-search.html', json_data=json.dumps(json_data, ensure_ascii=False).encode('utf-8'))
 
@@ -64,26 +67,10 @@ def get_nearest_station():
     gps_long = request.args.get('long')
     perimeter = request.args.get('perimeter')
 
-    print('\n\n\n',perimeter,'\n\n\n')
-
     # Création dynamique des noms de fichiers pour ouverture uniquement
-    filename_txt = str('data_h\\'+hour+'.txt')
-    filename = str('data_h\\'+hour+'.pkl')
-    
-    '''
-    # Création des features et modèles
-    #trainingFeatures = classifier.get_training_features(filename_txt)
-    #model = classifier.get_model(filename)
-
-    # Appel de la fonction de prediction
-   
-    #result = classifier.predict(model, trainingFeatures)
-    print(len(result))
-    print(type(result))
-    
-    for record in result:
-        print(result[record])
-    '''
+    filename_txt = str(os.path.join('data_h',hour+'.txt'))
+    filename = str(os.path.join('data_h',hour+'.pkl'))
+    print('\n\n\n',filename,'\n\n\n')
 
     # Filtrage via la base mongodb
     result =classifier.classify(8)
@@ -131,7 +118,6 @@ def get_nearest_station():
             del station['_id']
             clean_station.append(station)
             clean_station_name.append(station['station_name'])
-    #print(clean_station)
 
     is_near_count = 0
     new_list = []
@@ -148,9 +134,8 @@ def get_nearest_station():
             new_list.append(clean_station[i])
             new_list[is_near_count-1]['station_proba']=result[record]
 
-    total = 0
     # Recalcul du pourcentage
-
+    total = 0
     for station in new_list:
         total += station['station_proba']
     for station in new_list:

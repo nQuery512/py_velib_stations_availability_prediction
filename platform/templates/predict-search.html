@@ -44,13 +44,12 @@
             </div>
             <div id='textWrapper'>
                 <div id="station-list-div">
-                    <span><br><b>  Liste des stations</b></span>
+                    
                 </div>
                 <div id="distance-list-div">
-                    <span><br><b>Distance</b><span>
+                    
                 </div>
                 <div id="proba-list-div">
-                    <span><br><b>Proba</b><span>
                 </div>
             </div>
         </div>
@@ -267,6 +266,13 @@
                 });
                 console.log('Nombre de stations retournées: '+station_array.length);
 
+                // Suppression des span de la recherche précédente
+                 $('.deleteplz').remove();
+
+                $('#station-list-div').append('<span class="deleteplz"> <br><b>  Liste des stations</b></span>');
+                $('#distance-list-div').append('<span class="deleteplz"><br><b>Distance</b></span>');
+                $('#proba-list-div').append('<span class="deleteplz"><br /><br><b>Proba</b></span>');
+
                 // Ecriture des résultats dans le frontend
                 for (station in station_array)
                 {   
@@ -277,9 +283,9 @@
                     var pourcentage = station_array[station][3];
                     //console.log(typeof(localisation));
                     L.marker(localisation,{draggable: false}).addTo(macarte);
-                    $('#station-list-div').append('<br /><br /><span>  '+nom_station);
-                    $('#distance-list-div').append('<br /><br />'+distance+'m</span>');
-                    $('#proba-list-div').append('<br /><br />'+pourcentage+'%</span>');
+                    $('#station-list-div').append('<span class="deleteplz"><br /><br />  '+nom_station + '</span>');
+                    $('#distance-list-div').append('<span class="deleteplz"><br /><br />'+distance+'m</span>');
+                    $('#proba-list-div').append('<span class="deleteplz"><br /><br />'+pourcentage+'%</span>');
                 }
                 document.getElementById('info-dispo').style.display = "block";
             });

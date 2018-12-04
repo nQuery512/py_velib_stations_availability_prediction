@@ -62,19 +62,31 @@ def get_nearest_station():
     hour = request.args.get('hour')
     gps_lat = request.args.get('lat')
     gps_long = request.args.get('long')
+    perimeter = request.args.get('perimeter')
+
+    print('\n\n\n',perimeter,'\n\n\n')
 
     # Création dynamique des noms de fichiers pour ouverture uniquement
     filename_txt = str('data_h\\'+hour+'.txt')
     filename = str('data_h\\'+hour+'.pkl')
     
+    '''
     # Création des features et modèles
-    testFeatures = classifier.get_test_features(filename_txt)
-    model = classifier.get_model(filename)
+    #trainingFeatures = classifier.get_training_features(filename_txt)
+    #model = classifier.get_model(filename)
 
     # Appel de la fonction de prediction
-    result = classifier.predict(model, testFeatures)
+   
+    #result = classifier.predict(model, trainingFeatures)
+    print(len(result))
+    print(type(result))
+    
+    for record in result:
+        print(result[record])
+    '''
 
     # Filtrage via la base mongodb
+    result =classifier.classify(8)
     test_dist = 0
 
     client.db.stations_records.create_index([("station.location.coordinates", "2dsphere")])
@@ -87,7 +99,7 @@ def get_nearest_station():
                 "type": "Point", "coordinates": [float(gps_lat), float(gps_long)]
             },
             "distanceField": "station.location.calculated",
-            "maxDistance": 500,
+            "maxDistance": int(perimeter),
             "num":1000000,
             "spherical": True    
         }
@@ -119,8 +131,33 @@ def get_nearest_station():
             del station['_id']
             clean_station.append(station)
             clean_station_name.append(station['station_name'])
-    print(clean_station)
-    return str(clean_station)
+    #print(clean_station)
+
+    is_near_count = 0
+    new_list = []
+    for i, near_station_name in enumerate(clean_station_name):
+        is_near = False
+        for record in result:
+            #print(near_station_name, record)
+            if near_station_name in record:
+                #print('IDENTIQUE ', near_station_name, result[record])
+                is_near = True
+                is_near_count +=1
+                break
+        if(is_near == True):
+            new_list.append(clean_station[i])
+            new_list[is_near_count-1]['station_proba']=result[record]
+
+    total = 0
+    # Recalcul du pourcentage
+
+    for station in new_list:
+        total += station['station_proba']
+    for station in new_list:
+        station['station_proba'] = int((station['station_proba'] * 100)/total)
+
+    print(new_list)
+    return str(new_list[::-1])
 
 if __name__ == '__main__':
     app.run(debug=True,host='0.0.0.0')
